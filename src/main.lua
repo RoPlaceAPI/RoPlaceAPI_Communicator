@@ -9,8 +9,7 @@ if getfenv().logToConsole == true then
     if rconsoleAssert then
         for index, block in pairs(CanvasPath:GetChildren()) do
             if block:IsA("Part") then
-                console:Color("BLUE")
-                console.log("Indexing: " ..index)
+                console.log("Indexing: " ..index, "blue")
                 console.info("  Position: " .. block.Name) --> The name is the "pixel positon" not the actual position.
                 console.info("  Color: " .. tostring(block.Color))
             end
