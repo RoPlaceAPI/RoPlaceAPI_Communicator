@@ -1,5 +1,7 @@
 # Loadstring
 ```lua
+getfenv().logToConsole = true -- Set to false if your exploit doesn't have rconsoleprint but supports filesystem.
+
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/RoPlaceAPI/RoPlaceAPI_DataCollector/main/src/main.lua"))()
 ```
 
@@ -12,5 +14,6 @@ With that being said, do not use this unless you are:
 - Or some other that can find use of this.
 
 # Update Log
-`0.0.1b`
-- Fixed error
+`0.0.2b`
+- Added check for `rconsoleprint()`
+- Added Toggle for logToConsole
