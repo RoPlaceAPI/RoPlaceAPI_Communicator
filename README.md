@@ -14,6 +14,6 @@ With that being said, do not use this unless you are:
 - Or some other that can find use of this.
 
 # Update Log
-`0.0.2b`
-- Added check for `rconsoleprint()`
-- Added Toggle for logToConsole
+`0.1.0a`
+- Console logs out to CSV.
+- Various Changes
