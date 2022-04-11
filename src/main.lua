@@ -8,7 +8,7 @@ for index, block in pairs(CanvasPath:GetChildren()) do
     if block:IsA("Part") then
         console.log("Indexing: " ..index)
         console.info("  Position: " .. block.Name) --> The name is the "pixel positon" not the actual position.
-        console.info("  Color: " .. block.Color)
+        console.info("  Color: " .. tostring(block.Color))
     end
 end
 
