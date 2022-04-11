@@ -1,3 +1,8 @@
+# Scratch everything here
+[The better Option](https://gist.github.com/yafyz/df12d858fcc7a62df1ff25dce851e34b)
+
+Props to this man for basically making this useless. I was gonna take it for a learning experience but alright man.
+
 # Loadstring
 ```lua
 getfenv().logToConsole = true -- Set to false if your exploit doesn't have rconsoleprint but supports filesystem.
