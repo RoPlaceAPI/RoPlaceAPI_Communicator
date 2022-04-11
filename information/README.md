@@ -1,3 +1,6 @@
 # Updated Paths
 - Canvas
-`game:GetService("Workspace").Canvas`
+
+```lua
+game:GetService("Workspace").Canvas
+```
